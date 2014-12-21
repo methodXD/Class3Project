@@ -269,5 +269,3 @@ The set of variables that were included in the tidy data set:
 
 
 
-
-

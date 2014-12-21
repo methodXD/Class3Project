@@ -40,4 +40,3 @@ mean of the measurements by these 180 groups. After relabeling the groups, we ha
 tidy data set "data7".
 
 The script then outputs the tidy data set as "tidyData.txt", completing it's purpose.
-
