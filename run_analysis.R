@@ -2,7 +2,7 @@
 # applies labels, extracts relevant variables grouped by subject and 
 # activity description and outputs the tidy data set as "tidyData.txt"
 
-# Download the data files and unzip the various files into a folder.
+# Downloads the data files and unzip the various files into a folder.
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(fileUrl, destfile = "./UCI HAR Dataset.zip", mode = "wb")
 unzip("./UCI HAR Dataset.zip", exdir = ".")
@@ -39,29 +39,29 @@ data2 <- merge(data1,activity,by.x="activity",by.y="activity")
 data3 <- data2[order(data2$id),] # reorder rows
 data4 <- data3[,c(2,3,4,1,5)]    # reorder columns
 
-# Merge the measurement data.
-# Label the columns using the second column of the features data frame.
+# Combine the measurement data.
 xdata <- rbind(xtrain,xtest)
-names(xdata) <- features[,"V2"]
+# Label the columns using the second column of the features data frame.
+names(xdata) <- make.names(gsub("\\({1}\\){1}", "_", features[,"V2"]), unique = TRUE)
 
-# Combine measurement data with the previous data.
+# Combine measurement data with the previous data to create one data set.
 data5 <- cbind(data4,xdata)
 
-# Search column names for the words "mean" and "std" to create vectors of 
+# Search column names for the words "mean_" and "std_" to create vectors of 
 # columns to retain in tidy dataset. "keepALL" gives us the final list.
 colnames <- names(data5)
 keep5 <- colnames[1:5]
-keepMEAN <- colnames[grep("mean",colnames)]
-keepSTD <- colnames[grep("std",colnames)]
+keepMEAN <- colnames[grep("mean_",colnames)]
+keepSTD <- colnames[grep("std_",colnames)]
 keepMEAS <- append(keepMEAN,keepSTD)
 keepALL <- append(keep5,keepMEAS)
 
-# Data6 = All raw data merged into one data frame with labels and 
+# Data6 = All mean and std data merged into one data frame with labels and 
 # activity descriptions added.
 data6 <- data5[,keepALL]
 
 # Data7 = Tidy data with grouped subject and activity averages per measurement
-data7 <- aggregate(data6[,6:84],by=list(data6$subject,data6$activity_desc), mean)
+data7 <- aggregate(data6[,6:71],by=list(data6$subject,data6$activity_desc), mean)
 colnames(data7)[1:2] <- c("subject","activity_desc") # Re-add labels.
 
 # Create tidyData.txt file.
