@@ -40,3 +40,10 @@ mean of the measurements by these 180 groups. After relabeling the groups, we ha
 tidy data set "data7".
 
 The script then outputs the tidy data set as "tidyData.txt", completing it's purpose.
+
+
+### Note: You can read the tidy data set into R using the following code:
+
+tidyurl <- "https://s3.amazonaws.com/coursera-uploads/user-b7f83c0cc0efa14158618f24/973758/asst-3/f08ac5e0894611e4a5847d3ba6346de4.txt"
+
+tidydata <- read.table(tidyurl, header = TRUE)
