@@ -1,18 +1,21 @@
 README - Class3Project
 =============
 
-## Project for Data Science Class 03 - Getting and Cleaning Data
+### Project for Data Science Class 03 - Getting and Cleaning Data
+
+## SYSTEM INFORMATION
 
 Version of R used: R x64 3.1.2
 
 Operating System: Win7 x64
 
-### About:
+## About:
 All actions (from downloading the raw data to outputting the tidy data text file) 
 are completed by running the run_analysis.R script.
 
+### Step 1: Downloading and importing Data
 First, the script downloads the data as a zip file. This zip file is unzipped into 
-the "UCI HAR Dataset" folder. Each relevant data set is read into R:
+the "UCI HAR Dataset" folder. Each of the following relevant data set are then read into R:
 
 * subject_train.txt
 * X_train.txt
@@ -23,21 +26,34 @@ the "UCI HAR Dataset" folder. Each relevant data set is read into R:
 * features.txt
 * activity_labels.txt
 
-Activity labels are applied and the data source is recorded as the corresponding 
-training and testing data sets are combined. The subject and activity data are merged
-into the data frame "data1". An id is added to retain row order after the merge operation.
-The activity description column is labeled using the activity data frame and the merge function.
-Rows and columns are then reordered. Measurement data is then combined. The data columns are
-labeled using the features data frame and substituting the "()" with an underscore "_" to 
-prevent issues using the grep function. Measurement data is then combined with the previous
-data to give us a combined data set of our raw data in data frame "data5".
+### Step 2: Merging Data sets
+The "_train" and "_test" datasets must be combined using rbind before the 3 resulting datasets
+are merged together to form one large data set incorporating all of the data from the 8 files 
+listed above. For our purposes, the "_test" data sets is appended to the corresponding 
+"_train" data sets in all 3 cases. 
 
-In order to reduce the full dataset down to the relevant mean and standard deviation
-measurements, we must use a search function to find the "mean" and "std" measurements.
-This give us "data6"
-Using the aggregate function, we group by subject and activity description and calculate the
-mean of the measurements by these 180 groups. After relabeling the groups, we have our
-tidy data set "data7".
+### Step 3: Descriptive Activity Names
+The activity_labels.txt file contains labeling information that we merge with the dataset 
+to give descriptions of the activities. We use "activity" and 
+"activity_desc" for headers for the activity_labels.txt data set and merge this with our 
+combined data set to give activity descriptions in the data.
+
+### Step 4: Descriptive Variable Names
+The features.txt file contains the labeling information that we use to give 
+column headers to the measurement data in the combined data set. These are stored 
+in the second column of the file "V2" and we replace the "()" with "_"
+in order to help us in a next step and prevent issues with the grep function. 
+This leads us to a single data set with labels. This 
+is the data frame "data5" in the script.
+
+### Step 5: Create an independent tidy data set (with averaged variables by subject and
+activity groupings)
+By searching the measurement heading titles for "mean_" and "std_",
+we find the 66 measurement variables we are interested in keeping. Eliminating the other variables,
+we assign this smaller data set to "data6". We aggregate
+the averages of these measurements by the subject group and the activity_desc variables. Since 
+there are 30 subjects and 6 activities for each, we have 180 rows of data.
+After relabeling the groups, we have our tidy data set "data7".
 
 The script then outputs the tidy data set as "tidyData.txt", completing it's purpose.
 
