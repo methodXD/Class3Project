@@ -1,4 +1,6 @@
-# The following script 
+# The following script downloads data, merges it into one data frame, 
+# applies labels, extracts relevant variables grouped by subject and 
+# activity description and outputs the tidy data set as "tidyData.txt"
 
 # Download the data files and unzip the various files into a folder.
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
