@@ -46,8 +46,8 @@ in order to help us in a next step and prevent issues with the grep function.
 This leads us to a single data set with labels. This 
 is the data frame "data5" in the script.
 
-### Step 5: Create an independent tidy data set (with averaged variables by subject and
-activity groupings)
+### Step 5: Create an independent tidy data set (with averaged variables by subject and activity groupings)
+
 By searching the measurement heading titles for "mean_" and "std_",
 we find the 66 measurement variables we are interested in keeping. Eliminating the other variables,
 we assign this smaller data set to "data6". We aggregate
