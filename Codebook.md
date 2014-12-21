@@ -1,8 +1,9 @@
 Codebook - Class3Project
 =============
 
-Project for Data Science Class 03 - Getting and Cleaning Data
+## Project for Data Science Class 03 - Getting and Cleaning Data
 
+### About:
 
 The variables included in the raw data and resulting tidy data are based on measurements
 obtained from the accelerometer and gyroscope of a Samsung phone, while 30 volunteers 
@@ -29,31 +30,31 @@ description groups gives us the tidy data set we sought to create.
 
 List of 33 signals included in the raw data and the tidy data set:
 (Note that the variables ending in -XYZ have three corresponding variables in the data set.)
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 The set of variables that were included in the tidy data set:
 (Note that these 2 variables are calculated for each of the 33 signals above)
-mean(): Mean value
-std(): Standard deviation
+* mean(): Mean value
+* std(): Standard deviation
 
 
-Data Dictionary
+### Data Dictionary
 
  [1] "subject"                   
 		The identifier of the volunteer subject who carried out the experiment.

@@ -1,25 +1,27 @@
 README - Class3Project
 =============
 
-Project for Data Science Class 03 - Getting and Cleaning Data
+## Project for Data Science Class 03 - Getting and Cleaning Data
 
 Version of R used: R x64 3.1.2
+
 Operating System: Win7 x64
 
-About:
+### About:
 All actions (from downloading the raw data to outputting the tidy data text file) 
 are completed by running the run_analysis.R script.
 
 First, the script downloads the data as a zip file. This zip file is unzipped into 
 the "UCI HAR Dataset" folder. Each relevant data set is read into R:
-subject_train.txt
-X_train.txt
-Y_train.txt
-subject_text.txt
-X_test.txt
-Y_test.txt
-features.txt
-activity_labels.txt
+
+* subject_train.txt
+* X_train.txt
+* Y_train.txt
+* subject_text.txt
+* X_test.txt
+* Y_test.txt
+* features.txt
+* activity_labels.txt
 
 Activity labels are applied and the data source is recorded as the corresponding 
 training and testing data sets are combined. The subject and activity data are merged
