@@ -68,8 +68,8 @@ The set of variables that were included in the tidy data set:
 		   * STANDING  
 		   * LAYING  
  * [3] "tBodyAcc.mean_.X"          
-		   Mean of the Time Domain Signal of Body Linear Acceleration in the X-Coordinate  
-			      numeric (normalized and bounded within [-1,1].)
+		Mean of the Time Domain Signal of Body Linear Acceleration in the X-Coordinate  
+			* numeric (normalized and bounded within [-1,1].)
  * [4] "tBodyAcc.mean_.Y"          
 		Mean of the Time Domain Signal of Body Linear Acceleration in the Y-Coordinate  
 			numeric (normalized and bounded within [-1,1].)
@@ -85,184 +85,184 @@ The set of variables that were included in the tidy data set:
  * [8] "tGravityAcc.mean_.Z"       
   		Mean of the Time Domain Signal of Gravity Linear Acceleration in the Z-Coordinate  
 			numeric (normalized and bounded within [-1,1].)
- [9] "tBodyAccJerk.mean_.X"      
+ * [9] "tBodyAccJerk.mean_.X"      
  		Mean of the Time Domain Signal of Body Linear Acceleration Jerk in the X-Coordinate
 			numeric (normalized and bounded within [-1,1].)
- [10] "tBodyAccJerk.mean_.Y"      
+ * [10] "tBodyAccJerk.mean_.Y"      
 		Mean of the Time Domain Signal of Body Linear Acceleration Jerk in the Y-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[11] "tBodyAccJerk.mean_.Z"      
+* [11] "tBodyAccJerk.mean_.Z"      
 		Mean of the Time Domain Signal of Body Linear Acceleration Jerk in the Z-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[12] "tBodyGyro.mean_.X"         
+* [12] "tBodyGyro.mean_.X"         
 		Mean of the Time Domain Signal of Body Angular Acceleration in the X-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[13] "tBodyGyro.mean_.Y"         
+* [13] "tBodyGyro.mean_.Y"         
 		Mean of the Time Domain Signal of Body Angular Acceleration in the Y-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[14] "tBodyGyro.mean_.Z"         
+* [14] "tBodyGyro.mean_.Z"         
 		Mean of the Time Domain Signal of Body Angular Acceleration in the Z-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[15] "tBodyGyroJerk.mean_.X"     
+* [15] "tBodyGyroJerk.mean_.X"     
 		Mean of the Time Domain Signal of Body Angular Acceleration Jerk in the X-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[16] "tBodyGyroJerk.mean_.Y"     
+* [16] "tBodyGyroJerk.mean_.Y"     
 		Mean of the Time Domain Signal of Body Angular Acceleration Jerk in the Y-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[17] "tBodyGyroJerk.mean_.Z"     
+* [17] "tBodyGyroJerk.mean_.Z"     
 		Mean of the Time Domain Signal of Body Angular Acceleration Jerk in the Z-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[18] "tBodyAccMag.mean_"         
+* [18] "tBodyAccMag.mean_"         
 		Mean of the Time Domain Signal of Body Linear Acceleration Euclidean Norm
 			numeric (normalized and bounded within [-1,1].)
-[19] "tGravityAccMag.mean_"      
+* [19] "tGravityAccMag.mean_"      
 		Mean of the Time Domain Signal of Gravity Linear Acceleration Euclidean Norm
 			numeric (normalized and bounded within [-1,1].)
-[20] "tBodyAccJerkMag.mean_"     
+* [20] "tBodyAccJerkMag.mean_"     
 		Mean of the Time Domain Signal of Body Linear Acceleration Jerk Euclidean Norm
 			numeric (normalized and bounded within [-1,1].)
-[21] "tBodyGyroMag.mean_"        
+* [21] "tBodyGyroMag.mean_"        
 		Mean of the Time Domain Signal of Body Angular Acceleration Euclidean Norm
 			numeric (normalized and bounded within [-1,1].)
-[22] "tBodyGyroJerkMag.mean_"    
+* [22] "tBodyGyroJerkMag.mean_"    
 		Mean of the Time Domain Signal of Body Angular Acceleration Jerk Euclidean Norm
 			numeric (normalized and bounded within [-1,1].)
-[23] "fBodyAcc.mean_.X"          
+* [23] "fBodyAcc.mean_.X"          
 		Mean of the Frequency Domain Signal of Body Linear Acceleration in the X-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[24] "fBodyAcc.mean_.Y"          
+* [24] "fBodyAcc.mean_.Y"          
 		Mean of the Frequency Domain Signal of Body Linear Acceleration in the Y-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[25] "fBodyAcc.mean_.Z"          
+* [25] "fBodyAcc.mean_.Z"          
 		Mean of the Frequency Domain Signal of Body Linear Acceleration in the Z-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[26] "fBodyAccJerk.mean_.X"      
+* [26] "fBodyAccJerk.mean_.X"      
 		Mean of the Frequency Domain Signal of Body Linear Acceleration Jerk in the X-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[27] "fBodyAccJerk.mean_.Y"      
+* [27] "fBodyAccJerk.mean_.Y"      
 		Mean of the Frequency Domain Signal of Body Linear Acceleration Jerk in the Y-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[28] "fBodyAccJerk.mean_.Z"      
+* [28] "fBodyAccJerk.mean_.Z"      
 		Mean of the Frequency Domain Signal of Body Linear Acceleration Jerk in the Z-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[29] "fBodyGyro.mean_.X"         
+* [29] "fBodyGyro.mean_.X"         
 		Mean of the Frequency Domain Signal of Body Angular Acceleration in the X-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[30] "fBodyGyro.mean_.Y"         
+* [30] "fBodyGyro.mean_.Y"         
 		Mean of the Frequency Domain Signal of Body Angular Acceleration in the Y-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[31] "fBodyGyro.mean_.Z"         
+* [31] "fBodyGyro.mean_.Z"         
 		Mean of the Frequency Domain Signal of Body Angular Acceleration in the Z-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[32] "fBodyAccMag.mean_"         
+* [32] "fBodyAccMag.mean_"         
 		Mean of the Frequency Domain Signal of Body Linear Acceleration Euclidean Norm
 			numeric (normalized and bounded within [-1,1].)
-[33] "fBodyBodyAccJerkMag.mean_" 
+* [33] "fBodyBodyAccJerkMag.mean_" 
 		Mean of the Frequency Domain Signal of Body Linear Acceleration Jerk Euclidean Norm
 			numeric (normalized and bounded within [-1,1].)
-[34] "fBodyBodyGyroMag.mean_"    
+* [34] "fBodyBodyGyroMag.mean_"    
 		Mean of the Frequency Domain Signal of Body Angular Acceleration Euclidean Norm
 			numeric (normalized and bounded within [-1,1].)
-[35] "fBodyBodyGyroJerkMag.mean_"
+* [35] "fBodyBodyGyroJerkMag.mean_"
 		Mean of the Frequency Domain Signal of Body Angular Acceleration Jerk Euclidean Norm
 			numeric (normalized and bounded within [-1,1].)
-[36] "tBodyAcc.std_.X"           
+* [36] "tBodyAcc.std_.X"           
 		Standard Deviation of the Time Domain Signal of Body Linear Acceleration in the X-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[37] "tBodyAcc.std_.Y"           
+* [37] "tBodyAcc.std_.Y"           
 		Standard Deviation of the Time Domain Signal of Body Linear Acceleration in the Y-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[38] "tBodyAcc.std_.Z"           
+* [38] "tBodyAcc.std_.Z"           
 		Standard Deviation of the Time Domain Signal of Body Linear Acceleration in the Z-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[39] "tGravityAcc.std_.X"        
+* [39] "tGravityAcc.std_.X"        
 		Standard Deviation of the Time Domain Signal of Gravity Linear Acceleration in the X-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[40] "tGravityAcc.std_.Y"        
+* [40] "tGravityAcc.std_.Y"        
 		Standard Deviation of the Time Domain Signal of Gravity Linear Acceleration in the Y-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[41] "tGravityAcc.std_.Z"        
+* [41] "tGravityAcc.std_.Z"        
 		Standard Deviation of the Time Domain Signal of Gravity Linear Acceleration in the Z-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[42] "tBodyAccJerk.std_.X"       
+* [42] "tBodyAccJerk.std_.X"       
 		Standard Deviation of the Time Domain Signal of Body Linear Acceleration Jerk in the X-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[43] "tBodyAccJerk.std_.Y"       
+* [43] "tBodyAccJerk.std_.Y"       
 		Standard Deviation of the Time Domain Signal of Body Linear Acceleration Jerk in the Y-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[44] "tBodyAccJerk.std_.Z"       
+* [44] "tBodyAccJerk.std_.Z"       
 		Standard Deviation of the Time Domain Signal of Body Linear Acceleration Jerk in the Z-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[45] "tBodyGyro.std_.X"          
+* [45] "tBodyGyro.std_.X"          
 		Standard Deviation of the Time Domain Signal of Body Angular Acceleration in the X-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[46] "tBodyGyro.std_.Y"          
+* [46] "tBodyGyro.std_.Y"          
 		Standard Deviation of the Time Domain Signal of Body Angular Acceleration in the Y-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[47] "tBodyGyro.std_.Z"          
+* [47] "tBodyGyro.std_.Z"          
 		Standard Deviation of the Time Domain Signal of Body Angular Acceleration in the Z-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[48] "tBodyGyroJerk.std_.X"      
+* [48] "tBodyGyroJerk.std_.X"      
 		Standard Deviation of the Time Domain Signal of Body Angular Acceleration Jerk in the X-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[49] "tBodyGyroJerk.std_.Y"      
+* [49] "tBodyGyroJerk.std_.Y"      
 		Standard Deviation of the Time Domain Signal of Body Angular Acceleration Jerk in the Y-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[50] "tBodyGyroJerk.std_.Z"      
+* [50] "tBodyGyroJerk.std_.Z"      
 		Standard Deviation of the Time Domain Signal of Body Angular Acceleration Jerk in the Z-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[51] "tBodyAccMag.std_"          
+* [51] "tBodyAccMag.std_"          
 		Standard Deviation of the Time Domain Signal of Body Linear Acceleration Euclidean Norm
 			numeric (normalized and bounded within [-1,1].)
-[52] "tGravityAccMag.std_"       
+* [52] "tGravityAccMag.std_"       
 		Standard Deviation of the Time Domain Signal of Gravity Linear Acceleration Euclidean Norm
 			numeric (normalized and bounded within [-1,1].)
-[53] "tBodyAccJerkMag.std_"      
+* [53] "tBodyAccJerkMag.std_"      
 		Standard Deviation of the Time Domain Signal of Body Linear Acceleration Jerk Euclidean Norm
 			numeric (normalized and bounded within [-1,1].)
-[54] "tBodyGyroMag.std_"         
+* [54] "tBodyGyroMag.std_"         
 		Standard Deviation of the Time Domain Signal of Body Angular Acceleration Euclidean Norm
 			numeric (normalized and bounded within [-1,1].)
-[55] "tBodyGyroJerkMag.std_"     
+* [55] "tBodyGyroJerkMag.std_"     
 		Standard Deviation of the Time Domain Signal of Body Angular Acceleration Jerk Euclidean Norm
 			numeric (normalized and bounded within [-1,1].)
-[56] "fBodyAcc.std_.X"           
+* [56] "fBodyAcc.std_.X"           
 		Standard Deviation of the Frequency Domain Signal of Body Linear Acceleration in the X-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[57] "fBodyAcc.std_.Y"           
+* [57] "fBodyAcc.std_.Y"           
 		Standard Deviation of the Frequency Domain Signal of Body Linear Acceleration in the Y-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[58] "fBodyAcc.std_.Z"           
+* [58] "fBodyAcc.std_.Z"           
 		Standard Deviation of the Frequency Domain Signal of Body Linear Acceleration in the Z-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[59] "fBodyAccJerk.std_.X"       
+* [59] "fBodyAccJerk.std_.X"       
 		Standard Deviation of the Frequency Domain Signal of Body Linear Acceleration Jerk in the X-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[60] "fBodyAccJerk.std_.Y"       
+* [60] "fBodyAccJerk.std_.Y"       
 		Standard Deviation of the Frequency Domain Signal of Body Linear Acceleration Jerk in the Y-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[61] "fBodyAccJerk.std_.Z"       
+* [61] "fBodyAccJerk.std_.Z"       
 		Standard Deviation of the Frequency Domain Signal of Body Linear Acceleration Jerk in the Z-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[62] "fBodyGyro.std_.X"          
+* [62] "fBodyGyro.std_.X"          
 		Standard Deviation of the Frequency Domain Signal of Body Angular Acceleration in the X-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[63] "fBodyGyro.std_.Y"          
+* [63] "fBodyGyro.std_.Y"          
 		Standard Deviation of the Frequency Domain Signal of Body Angular Acceleration in the Y-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[64] "fBodyGyro.std_.Z"          
+* [64] "fBodyGyro.std_.Z"          
 		Standard Deviation of the Frequency Domain Signal of Body Angular Acceleration in the Z-Coordinate
 			numeric (normalized and bounded within [-1,1].)
-[65] "fBodyAccMag.std_"          
+* [65] "fBodyAccMag.std_"          
 		Standard Deviation of the Frequency Domain Signal of Body Linear Acceleration Euclidean Norm
 			numeric (normalized and bounded within [-1,1].)
-[66] "fBodyBodyAccJerkMag.std_"  
+* [66] "fBodyBodyAccJerkMag.std_"  
 		Standard Deviation of the Frequency Domain Signal of Body Linear Acceleration Jerk Euclidean Norm
 			numeric (normalized and bounded within [-1,1].)
-[67] "fBodyBodyGyroMag.std_"     
+* [67] "fBodyBodyGyroMag.std_"     
 		Standard Deviation of the Frequency Domain Signal of Body Angular Acceleration Euclidean Norm
 			numeric (normalized and bounded within [-1,1].)
-[68] "fBodyBodyGyroJerkMag.std_"
+* [68] "fBodyBodyGyroJerkMag.std_"
 		Standard Deviation of the Frequency Domain Signal of Body Angular Acceleration Jerk Euclidean Norm
 			numeric (normalized and bounded within [-1,1].)
 
