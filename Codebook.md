@@ -56,23 +56,23 @@ The set of variables that were included in the tidy data set:
 
 ### Data Dictionary
 
- [1] "subject"                   
+ * [1] "subject"                   
 		The identifier of the volunteer subject who carried out the experiment.
-			1-30
- [2] "activity_desc"             
+		   1-30
+ * [2] "activity_desc"             
 		A description of the activity being performed during the data measurement by each subject.
-			WALKING
-			WALKING_UPSTAIRS
-			WALKING_DOWNSTAIRS
-			SITTING
-			STANDING
-			LAYING
- [3] "tBodyAcc.mean_.X"          
+		   WALKING
+		   WALKING_UPSTAIRS
+		   WALKING_DOWNSTAIRS
+		   SITTING
+		   STANDING
+		   LAYING
+ * [3] "tBodyAcc.mean_.X"          
 		Mean of the Time Domain Signal of Body Linear Acceleration in the X-Coordinate
 			numeric (normalized and bounded within [-1,1].)
- [4] "tBodyAcc.mean_.Y"          
+ * [4] "tBodyAcc.mean_.Y"          
 		Mean of the Time Domain Signal of Body Linear Acceleration in the Y-Coordinate
-			numeric (normalized and bounded within [-1,1].)
+		   numeric (normalized and bounded within [-1,1].)
  [5] "tBodyAcc.mean_.Z"          
  		Mean of the Time Domain Signal of Body Linear Acceleration in the Z-Coordinate
 			numeric (normalized and bounded within [-1,1].)
